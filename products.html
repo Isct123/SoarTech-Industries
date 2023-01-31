@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoarTech | Products</title>
+    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="style.css"><link rel="icon" type="image/x-icon" href="https://snipboard.io/ukFyxS.jpg">
+    
+</head>
+<body>
+    <nav style="margin-bottom:10px;">
+        <ul class="menu" style="height: 30px;" >
+            <li><a class="button fa fa-home" href="home.html"  > Home</a></li>
+            <li><a class="button fa fa-cogs" href="products.html"> Products</a></li>
+            <li><a class="button fa fa-cart-arrow-down" href="buyers.html"> Buyers</a></li>
+            <li><a class="button fa fa-map-marker" href="location.html"> Location</a></li>
+            <li><a class="button fa fa-users" href="members.html"> Members</a></li>
+        </ul>
+    </nav><link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <h1 class="products_we_offer" style="margin-top: 0px; margin-left: 10px;">Products we Offer:</h1>
+    <button class="collapsible" id = "wing_button"> Wing Components</button>
+    <div class="content" id = "wing">
+    <iframe src="wing.html" frameborder="0" style="height:600px;" ></iframe>
+    </div>
+    <button class="collapsible" id = "engine_button"> Engine Components</button>
+    <div class="content" id = "engine">
+        <iframe src="engine.html" frameborder="0" ></iframe>
+    </div>
+    <button class="collapsible" id = "comm_button"> Communication Tools for Aircrafts</button>
+    <div class="content" id = "comm">
+        <iframe src="communication.html" frameborder="0"></iframe>
+    </div>
+       <button class="collapsible" id = "cock_button"> Cockpit Components</button>
+        <div class="content" id = "cock">
+            <iframe src="cockpit.html" frameborder="0"></iframe>
+        </div> 
+</body>
+
+
+        <script src="products.js"></script>
+        <style>
+            iframe{
+                height: 1300px;
+                width: 90%;
+            }
+
+            .collapsible{
+                margin: 10px;
+                width: 90%;
+            }
+        </style>
+</html>
